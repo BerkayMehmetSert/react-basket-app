@@ -20,7 +20,7 @@ export default function Basket( props ) {
 						<button onClick={() => onRemove( item )} className={'remove'}>-</button>
 					</div>
 					<div className={'col-2 text-right'}>
-						{item.qty} x ₺{item.price.toFixed( 2 )}
+						{item.quantity} x ₺{item.price.toFixed( 2 )}
 					</div>
 				</div>
 			) )}
